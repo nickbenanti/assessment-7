@@ -1,0 +1,31 @@
+Results for the tinyArray
+	Insert- 29.2 μs
+Append- 76.1 μs
+
+
+Results for the smallArray
+insert- 40.4 μs
+append- 89.7 μs
+
+
+Results for the mediumArray
+insert- 125.5 μs
+append- 114.2 μs
+
+
+Results for the largeArray
+insert- 6.3191 ms
+append- 536.5 μs
+
+
+Results for the extraLargeArray 
+insert - 559.5717 ms
+append - 2.8927 ms
+
+
+
+
+When running the 2 functions doublerAppend and doublerInsert, as the arrays get larger the time to run the function also gets bigger.
+The first two arrays tinyArray and smallArray the . push method runs faster than the .unshift method. As the arrays get bigger 
+the .unshift method has a shorter runtime than the .push method. So the scalability of the .push method would be better used for 
+smaller type arrays. But once you start to get a lot of data that needs to be stored in arrays then the .shift method would be better useful. 
